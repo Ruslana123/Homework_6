@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: 'Roboto-regular';
+    font-weight: 400;
+    src: url(/Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-bolt';
+    font-weight: 700;
+    src: url(/Fonts/Roboto-Bold.ttf);
+}
+
+.inner {
+    width: 800px;
+    /* font-size: 0; */
+}
+
+
+.inner .card {
+    display: inline-block;
+    width: 200px;
+    background: lightblue;
+    text-align: center;
+    margin: 15px;
+}
+
+.inner .card img {
+    width: 130px;
+    height: 130px;
+}
+
+.innner .card .text {
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Roboto-regular';
+    font-weight: 400;
+    
+    
+}
+
+.innner .card .title {
+    font-family: 'Roboto-bolt';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+
+}
